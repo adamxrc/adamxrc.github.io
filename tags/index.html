@@ -56,18 +56,19 @@
   };
 </script>
 
-  <meta name="description" content="涉猎的主要编程语言为 Java、Python、Go，领域涵盖大数据、机器学习、服务架构等。">
+  <meta name="description" content="type: tagscomments: false">
 <meta name="keywords" content="Java, Python, 大数据, 机器学习">
 <meta property="og:type" content="website">
-<meta property="og:title" content="NeiDe">
-<meta property="og:url" content="http://yoursite.com/archives/index.html">
+<meta property="og:title" content="tags">
+<meta property="og:url" content="http://yoursite.com/tags/index.html">
 <meta property="og:site_name" content="NeiDe">
-<meta property="og:description" content="涉猎的主要编程语言为 Java、Python、Go，领域涵盖大数据、机器学习、服务架构等。">
+<meta property="og:description" content="type: tagscomments: false">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-09-28T11:22:10.422Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="NeiDe">
-<meta name="twitter:description" content="涉猎的主要编程语言为 Java、Python、Go，领域涵盖大数据、机器学习、服务架构等。">
-  <link rel="canonical" href="http://yoursite.com/archives/">
+<meta name="twitter:title" content="tags">
+<meta name="twitter:description" content="type: tagscomments: false">
+  <link rel="canonical" href="http://yoursite.com/tags/">
 
 
 <script id="page-configurations">
@@ -76,12 +77,12 @@
     sidebar: "",
     isHome: false,
     isPost: false,
-    isPage: false,
-    isArchive: true
+    isPage: true,
+    isArchive: false
   };
 </script>
 
-  <title>归档 | NeiDe</title>
+  <title>tags | NeiDe</title>
   
 
 
@@ -259,99 +260,50 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block archive">
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        
-        
-        
-          
-        
-        <span class="collection-header">嗯..! 目前共计 2 篇日志。 继续努力。</span>
-      </div>
-      
-
-      
-
-  
-  
-
-  
+  <div id="posts" class="posts-expand">
     
-    <div class="collection-year">
-      <h1 class="collection-header">2019</h1>
-    </div>
+    
+    
+    <div class="post-block page">
+      <header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">tags
+
+</h1>
+
+<div class="post-meta">
   
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+</div>
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2019-09-28T19:13:32+08:00"
-              content="2019-09-28">
-          09-28
-        </time>
+</header>
+
+      
+      
+      
+      <div class="post-body">
+        
+          <p>type: tags<br>comments: false</p>
+
+        
       </div>
-
-      <h2 class="post-title">
-        
-          <a class="post-title-link" href="/2019/09/28/hello-world-1/" itemprop="url">
-            <span itemprop="name">hello-world</span>
-          </a>
-        
-      </h2>
-
-    </header>
-  </article>
-
-
-
-  
-  
-
-  
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2019-09-28T11:37:17+08:00"
-              content="2019-09-28">
-          09-28
-        </time>
-      </div>
-
-      <h2 class="post-title">
-        
-          <a class="post-title-link" href="/2019/09/28/hello-world/" itemprop="url">
-            <span itemprop="name">Hello World</span>
-          </a>
-        
-      </h2>
-
-    </header>
-  </article>
-
-
-
-
+      
+      
+      
     </div>
+    
+
+    
+    
+    
   </div>
-  
-  
-  
-
-  
-
 
 
           </div>
           
+    
+    <div class="comments" id="gitalk-container"></div>
+  
 
         </div>
           
@@ -366,6 +318,11 @@
 
   <aside class="sidebar">
     <div class="sidebar-inner">
+        
+        
+        
+        
+      
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc">
@@ -542,6 +499,24 @@ window.addEventListener('pjax:success', () => {
 
   
 
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.css">
+
+<script>
+  NexT.utils.getScript('//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js', () => {
+    var gitalk = new Gitalk({
+      clientID: '7b15f91af299885c2b46',
+      clientSecret: '15b3715b02835f7d1dcfc0cd321c86a47501edd4',
+      repo: 'adamxrc.github.io',
+      owner: 'adamxrc',
+      admin: ['adamxrc'],
+      id: 'f47af1d1eda4d807b02bba32be15120b',
+        language: 'zh-CN',
+      
+      distractionFreeMode: 'true'
+    });
+    gitalk.render('gitalk-container');
+  }, window.Gitalk);
+</script>
 
     </div>
 </body>
